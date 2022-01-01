@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Number Guess</title>
+    <meta charset="utf-8" />
+    <link href="./css/NumberGuess.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>
+      I am thinking of a number
+    </h1>
+    <h1>
+      <span id="min">1</span> to <span id="max">1000</span>.
+    </h1>
+    <h1>
+      What is the number?
+    </h1>
+    <br />
+    <hr />
+    <br />
+    <form>
+      <p>
+        Number:
+        <input type="text" id="txtNum" maxlength="4" size="3" />
+        <input type="button" id="btnGuess" value="Guess" />
+      </p>
+    </form>
+    <p id="warning"></p>
+    <p id="score">
+      Tries: <span id="sNum">0</span>
+    </p>
+    <br />
+    <hr />
+    <br />
+    <a href="index.html">Do you want to leave?</a>
+    <input id="reload" type="button" value="Reset" onclick="location.reload();" />
+    <script type="module" src="./js/NumberGuess.js"></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+/*Element Styles*/
+
+a
+{
+  text-decoration: none;
+  color: hsl(225,75%,50%);
+  margin-left: 25px;
+}
+
+a:hover
+{
+  color: hsl(0,100%,50%);
+}
+
+body
+{
+  font-family: Arial Black;
+  width: 500px;
+  background-color: #202020;
+  color: hsl(135,75%,20%);
+}
+
+form
+{
+  background-color: #505050;
+  color: hsl(0,0%,0%);
+  width: 300px;
+  margin-left: 100px;
+}
+
+h1
+{
+  text-align: center;
+  margin: 5px;
+  width: 490px;
+}
+
+p
+{
+  margin: 10px;
+}
+/*Class Styles*/
+
+/*Id Styles*/
+
+#btnGuess
+{
+  margin-left: 55px;
+  visibility: hidden;
+}
+
+#btnGuess:hover
+{
+  background-color: hsl(135,100%,50%);
+  font-weight: bold;
+}
+
+#txtNum
+{
+  margin: 10px;
+}
+
+#reload
+{
+  margin-left: 200px;
+}
+
+#reload:hover
+{
+  background-color: hsl(0,100%,50%);
+  font-weight: bold;
+}
+
+#score
+{
+  text-align: center;
+}
+
+#warning
+{
+  text-align: center;
+  color: hsl(0, 75%, 50%);
+}
